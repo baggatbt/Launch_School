@@ -1,9 +1,5 @@
-function shortLongShort(string1, string2) {
-  if (string1.length > string2.length) {
-    return string2 + string1 + string2;
-  } else {
-    return string1 + string2 + string1;
-  }
-}
+[2, 11, 9, 4, 107, 21, 1,300].sort((a, b) => a - b);
 
-shortLongShort("dude", "where");
+let words = ['go', 'ahead', 'and', 'jump'];
+
+words.sort((a, b) => a.length - b.length);
